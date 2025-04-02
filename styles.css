@@ -167,9 +167,9 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 68px;
-    width: 1533px; /* Largeur fixe */
-    height: 799px; /* Hauteur fixe */
-    margin: 0 auto; /* Centre la div horizontalement */
+    width: 1533px;
+    height: 799px;
+    margin: 0 auto;
     box-sizing: border-box;
   }
   
@@ -186,7 +186,8 @@
       object-fit: cover;
       background-image: url('img/PhotoNavale.png');
   }
-{
+  .mapbox
+  {
       width: 100%;
       height: auto;
       border-radius: 30px;
