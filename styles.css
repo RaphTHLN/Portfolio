@@ -71,12 +71,14 @@
     text-decoration: none;
     border: 1px solid #4C2FB4;
     transition: all 0.3s ease;
+    color: #4C2FB4;
   }
   
   .cta-button:hover {
-    background: linear-gradient(180deg, #4C2FB4 0%, #754FFF 100%);
+    background-color: var(--bleu);
     border: 1px solid rgba(255, 255, 255, 0.4);
     transform: translateY(-2px);
+    color: #FFFFFF;
   }
   
   .main {
@@ -86,6 +88,10 @@
     min-height: 800px;
     display: flex;
     align-items: center;
+    background-image: url('img/BG.png');
+    background-repeat: repeat;
+    background-size: auto;
+    border-bottom: 10px solid rgba(76, 47, 180, 0.30);
   }
   
   .main-content {
@@ -167,11 +173,25 @@
     box-sizing: border-box;
   }
   
-  .bonnegrace-image, .photo-navale, .maps-box {
+  .bonnegrace-image{
     width: 100%;
     height: auto;
     border-radius: 30px;
     object-fit: cover;
+  }
+  .photo-navale{
+      width: 100%;
+      height: auto;
+      border-radius: 30px;
+      object-fit: cover;
+      background-image: url('img/PhotoNavale.png');
+  }
+{
+      width: 100%;
+      height: auto;
+      border-radius: 30px;
+      object-fit: cover;
+      background-image: url('img/mapsbox.png');
   }
   
   .box-presentation, .box-interests {
@@ -215,6 +235,7 @@
   .tag {
     background-color: var(--FFFFFF, #FFF);
     color: var(--BLEU, #4C2FB4);
+    -webkit-text-fill-color: #1E1E21;
   }
   
   .tag-light {
@@ -237,6 +258,7 @@
     gap: var(--spacing-md);
     width: 100%;
     max-width: 1600px;
+    color:var(--ffffff)
   }
   
   .project-card {
@@ -275,7 +297,6 @@
   
   .staar-bg { background-image: url(./img/background.png); }
   .nono-bg { background-image: url(./img/background-1.png); }
-  .ethereal-bg { background-image: url(./img/background-2.png); }
   .btc-bg { background-image: url(./img/background-3.png); }
   .host-bg { background-image: url(./img/background-4.png); }
   
@@ -327,6 +348,8 @@
     background-color: var(--blue);
     width: 100%;
     gap: var(--spacing-md);
+    background-color: #4C2FB4;
+    color: #FFFFFF;
   }
   
   .brand-info {
